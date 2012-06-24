@@ -61,11 +61,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BaseScreen.cpp" />
+    <ClCompile Include="GameScreen.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="ScreenHandler.cpp" />
     <ClCompile Include="SMaRTObject.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BaseScreen.h" />
+    <ClInclude Include="GameScreen.h" />
+    <ClInclude Include="MenuScreen.h" />
     <ClInclude Include="ScreenHandler.h" />
     <ClInclude Include="SMaRTObject.h" />
   </ItemGroup>
