@@ -19,6 +19,18 @@
     <Filter Include="Header Files\Screens">
       <UniqueIdentifier>{10035d68-4e21-445d-953b-6c2662f6cd5a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\players/monsters">
+      <UniqueIdentifier>{1ae88e80-1414-40b4-8e31-5cb15b6640a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Players/Monsters">
+      <UniqueIdentifier>{1208ccf6-0d1a-4975-a6c3-23ecb718bb92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Armor">
+      <UniqueIdentifier>{ce8b8f06-28b1-4f95-ab6c-fc4ca2f98fcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Armor">
+      <UniqueIdentifier>{d74c7475-c25e-4cb7-bb63-1b96d51fb173}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -36,6 +48,27 @@
     <ClCompile Include="BaseScreen.cpp">
       <Filter>Source Files\Screens</Filter>
     </ClCompile>
+    <ClCompile Include="Players.cpp">
+      <Filter>Source Files\Players/Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files\Players/Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>Source Files\Players/Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>Source Files\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="body.cpp">
+      <Filter>Source Files\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="legs.cpp">
+      <Filter>Source Files\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="socks.cpp">
+      <Filter>Source Files\Armor</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ScreenHandler.h">
@@ -52,6 +85,30 @@
     </ClInclude>
     <ClInclude Include="BaseScreen.h">
       <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Players.h">
+      <Filter>Header Files\players/monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files\players/monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>Header Files\players/monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>Header Files\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="head.h">
+      <Filter>Header Files\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="body.h">
+      <Filter>Header Files\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="legs.h">
+      <Filter>Header Files\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="socks.h">
+      <Filter>Header Files\Armor</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
