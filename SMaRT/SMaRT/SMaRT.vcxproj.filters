@@ -31,6 +31,12 @@
     <Filter Include="Source Files\Armor">
       <UniqueIdentifier>{d74c7475-c25e-4cb7-bb63-1b96d51fb173}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Weapon">
+      <UniqueIdentifier>{ed151820-b350-4d43-bf29-c302ef788062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Weapon">
+      <UniqueIdentifier>{b1f2c2a4-0192-4fa8-aa76-30976d96b9c1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -68,6 +74,12 @@
     </ClCompile>
     <ClCompile Include="socks.cpp">
       <Filter>Source Files\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="Head.cpp">
+      <Filter>Source Files\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Source Files\Weapon</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +121,9 @@
     </ClInclude>
     <ClInclude Include="socks.h">
       <Filter>Header Files\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files\Weapon</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

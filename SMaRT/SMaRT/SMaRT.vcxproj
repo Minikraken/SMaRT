@@ -65,6 +65,7 @@
     <ClCompile Include="BaseScreen.cpp" />
     <ClCompile Include="body.cpp" />
     <ClCompile Include="GameScreen.cpp" />
+    <ClCompile Include="Head.cpp" />
     <ClCompile Include="legs.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="player.cpp" />
@@ -72,6 +73,7 @@
     <ClCompile Include="ScreenHandler.cpp" />
     <ClCompile Include="SMaRTObject.cpp" />
     <ClCompile Include="socks.cpp" />
+    <ClCompile Include="Weapon.cpp" />
     <ClCompile Include="Zombie.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +89,7 @@
     <ClInclude Include="ScreenHandler.h" />
     <ClInclude Include="SMaRTObject.h" />
     <ClInclude Include="socks.h" />
+    <ClInclude Include="Weapon.h" />
     <ClInclude Include="Zombie.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
