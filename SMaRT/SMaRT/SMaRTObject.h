@@ -1,3 +1,5 @@
+#include "ScreenHandler.h"
+
 #ifndef SMARTOBJECT_H
 #define SMARTOBJECT_H
 
@@ -10,6 +12,7 @@ public:
 	void Run();
 
 private:
+	ScreenHandler* mScreenHandler;
 
 private:
 

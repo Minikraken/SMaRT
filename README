@@ -1,0 +1,63 @@
+-SMaRT
+======
+Spend Money and Recieve Tits
+==================
+Rasmus Tilljander
+Anton Eskilsson
+==================
+
+Förslag till programmeringsstandarder
+=====================================
+Allmänna saker
+	Mellanrum mellan kodrader som ej är direkt sammanlänkade
+	Ett mellanrum mellan funktioner
+	Kommentarer ovanför funktioner i .cpp och brevid i .h
+	Parameterlistor ska delas upp på nya rader ifall de innehåller
+		fler än fyra parametrar
+	Måsvingar raden under ett statement
+	Inga måsvingar om man inte måste ha
+	Deklarationer skall vara "aligned" (så gott det går och passar)
+		ex
+		int a 		= 5;
+		double b 	= 5.5;
+	
+Headerfiler
+	En klass per header
+	Ordning på variabler/funktiner
+		public
+		private funktioner
+		private variabler
+		protected funktioner
+		protected variabler
+	Get/setfunktioner skrivs direkt i header filen
+	Get funktioner skall vara "const"
+	Header guard should use the following standard
+		#ifndef MYCLASS_H
+		#define MYCLASS_H
+		#endif
+	Destruktorer
+		Skall alltid vara virtual		
+
+Filer
+	Filnamn skall börja på stor bokstav
+	Namnet skall skrivas i singular
+		
+Variabler
+	Börja alltid med liten bokstav
+	Vid flerord variabelsnamn så stor bokstav på varje nytt ord
+		ihopsatt utan delare så som "_".
+	Medlemsvariabler: prefix 'm' (ex. int mLevel)
+	Parameterlistor: prefix 'l'
+	Lokalt skapade variabler: prefix 'l' eller 'temp'
+	Konstanta globala variabler: Prefix med 'g'
+		ex. const int gWorldSize = 5;)
+	Namn till containers med objekt skall skrivas i singular
+		ex. en vector med Vertices kan skall döpas till t.ex. mVertex och inte mVertices
+
+Funktioner
+	Börja med stor bokstav
+	Vid flerord funktionsnamn så stor bokstav på varje nytt ord, 
+		ihopsatt utan delare så som "_".
+	Alla "get" funktioner bör vara konstanta (ex. int GetLevel() const;)
+	Alla get/set funktioner skall skrivas i header filen.
+	Bra länk: http://vimeo.com/13702091

@@ -11,8 +11,11 @@ public:
 	ScreenHandler();
 	virtual ~ScreenHandler();
 
-	void Update();
+	void Initialize();
+
+	bool Update();
 	void SwapScreenState(ScreenState lGameScreenState);
+	void Render();
 
 private:
 
@@ -22,7 +25,9 @@ private:
 	MenuScreen* mMenuScreen;
 
 	ScreenState mGameScreenState;
-	ScreenState mPrevGameScreenState
+	ScreenState mPrevGameScreenState;
+
+	bool mShutDownFlag;
 };
 
 #endif
