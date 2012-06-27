@@ -19,12 +19,6 @@
     <Filter Include="Header Files\Screens">
       <UniqueIdentifier>{10035d68-4e21-445d-953b-6c2662f6cd5a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\players/monsters">
-      <UniqueIdentifier>{1ae88e80-1414-40b4-8e31-5cb15b6640a9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Players/Monsters">
-      <UniqueIdentifier>{1208ccf6-0d1a-4975-a6c3-23ecb718bb92}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Armor">
       <UniqueIdentifier>{ce8b8f06-28b1-4f95-ab6c-fc4ca2f98fcc}</UniqueIdentifier>
     </Filter>
@@ -36,6 +30,12 @@
     </Filter>
     <Filter Include="Header Files\Weapon">
       <UniqueIdentifier>{b1f2c2a4-0192-4fa8-aa76-30976d96b9c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entitys">
+      <UniqueIdentifier>{1ae88e80-1414-40b4-8e31-5cb15b6640a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entitys">
+      <UniqueIdentifier>{1208ccf6-0d1a-4975-a6c3-23ecb718bb92}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -55,7 +55,7 @@
       <Filter>Source Files\Screens</Filter>
     </ClCompile>
     <ClCompile Include="Zombie.cpp">
-      <Filter>Source Files\Players/Monsters</Filter>
+      <Filter>Source Files\Entitys</Filter>
     </ClCompile>
     <ClCompile Include="Armor.cpp">
       <Filter>Source Files\Armor</Filter>
@@ -79,10 +79,16 @@
       <Filter>Source Files\Screens</Filter>
     </ClCompile>
     <ClCompile Include="Player.cpp">
-      <Filter>Source Files\Players/Monsters</Filter>
+      <Filter>Source Files\Entitys</Filter>
     </ClCompile>
     <ClCompile Include="Entity.cpp">
-      <Filter>Source Files\Players/Monsters</Filter>
+      <Filter>Source Files\Entitys</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -102,7 +108,7 @@
       <Filter>Header Files\Screens</Filter>
     </ClInclude>
     <ClInclude Include="Zombie.h">
-      <Filter>Header Files\players/monsters</Filter>
+      <Filter>Header Files\Entitys</Filter>
     </ClInclude>
     <ClInclude Include="Armor.h">
       <Filter>Header Files\Armor</Filter>
@@ -123,10 +129,19 @@
       <Filter>Header Files\Weapon</Filter>
     </ClInclude>
     <ClInclude Include="Player.h">
-      <Filter>Header Files\players/monsters</Filter>
+      <Filter>Header Files\Entitys</Filter>
     </ClInclude>
     <ClInclude Include="Entity.h">
-      <Filter>Header Files\players/monsters</Filter>
+      <Filter>Header Files\Entitys</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

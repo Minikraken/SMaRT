@@ -1,7 +1,8 @@
-#include "ScreenHandler.h"
-
 #ifndef SMARTOBJECT_H
 #define SMARTOBJECT_H
+
+#include "ScreenHandler.h"
+#include "Utilities.h"
 
 class SMaRTObject
 {
@@ -12,9 +13,10 @@ public:
 	void Run();
 
 private:
-	ScreenHandler* mScreenHandler;
+	void FreeMemory();
 
 private:
+	ScreenHandler* mScreenHandler;
 
 
 };

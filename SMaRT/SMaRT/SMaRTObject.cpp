@@ -7,8 +7,7 @@ SMaRTObject::SMaRTObject()
 }
 
 SMaRTObject::~SMaRTObject()
-{
-	delete mScreenHandler;
+{	
 }
 
 void SMaRTObject::Run()
@@ -17,4 +16,10 @@ void SMaRTObject::Run()
 	{
 		mScreenHandler->Render();
 	}
+	FreeMemory();
+}
+
+void SMaRTObject::FreeMemory()
+{
+	SAFE_DELETE(mScreenHandler);
 }

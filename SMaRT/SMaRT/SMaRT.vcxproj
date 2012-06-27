@@ -64,6 +64,7 @@
     <ClCompile Include="Armor.cpp" />
     <ClCompile Include="BaseScreen.cpp" />
     <ClCompile Include="body.cpp" />
+    <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="GameScreen.cpp" />
     <ClCompile Include="Head.cpp" />
     <ClCompile Include="legs.cpp" />
@@ -71,6 +72,7 @@
     <ClCompile Include="MenuScreen.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Projectile.cpp" />
     <ClCompile Include="ScreenHandler.cpp" />
     <ClCompile Include="SMaRTObject.cpp" />
     <ClCompile Include="socks.cpp" />
@@ -81,15 +83,18 @@
     <ClInclude Include="Armor.h" />
     <ClInclude Include="BaseScreen.h" />
     <ClInclude Include="body.h" />
+    <ClInclude Include="GameObject.h" />
     <ClInclude Include="GameScreen.h" />
     <ClInclude Include="head.h" />
     <ClInclude Include="legs.h" />
     <ClInclude Include="MenuScreen.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Entity.h" />
+    <ClInclude Include="Projectile.h" />
     <ClInclude Include="ScreenHandler.h" />
     <ClInclude Include="SMaRTObject.h" />
     <ClInclude Include="socks.h" />
+    <ClInclude Include="Utilities.h" />
     <ClInclude Include="Weapon.h" />
     <ClInclude Include="Zombie.h" />
   </ItemGroup>

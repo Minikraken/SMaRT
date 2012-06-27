@@ -2,7 +2,7 @@
 
 int main()
 {
-	SMaRTObject* SMartObject = new SMaRTObject();
-	SMartObject->Run();
+	SMaRTObject SMartObject = SMaRTObject();
+	SMartObject.Run();
 	return 0;
 }
