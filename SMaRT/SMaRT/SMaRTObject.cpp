@@ -2,19 +2,19 @@
 
 SMaRTObject::SMaRTObject()
 {
-
+	mScreenHandler = new ScreenHandler();
+	mScreenHandler->Initialize();
 }
 
 SMaRTObject::~SMaRTObject()
 {
-
+	delete mScreenHandler;
 }
 
 void SMaRTObject::Run()
 {
-	while(true)
+	while(mScreenHandler->Update())
 	{
-
-
+		mScreenHandler->Render();
 	}
 }

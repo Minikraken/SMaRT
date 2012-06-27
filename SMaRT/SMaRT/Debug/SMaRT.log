@@ -1,22 +1,35 @@
-﻿Build started 2012-06-24 19:08:52.
-     1>Project "J:\SMaRT\SMaRT\SMaRT\SMaRT.vcxproj" on node 2 (build target(s)).
+﻿Build started 2012-06-27 15:30:30.
+     1>Project "\\filestorage1.bth.se\profile\rati10\Desktop\SMaRT\SMaRT\SMaRT.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "Debug\SMaRT.unsuccessfulbuild".
+         Creating "Debug\SMaRT.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ScreenHandler.cpp
          ScreenHandler.cpp
-     1>j:\smart\smart\smart\screenhandler.h(22): error C2143: syntax error : missing ';' before '*'
-     1>j:\smart\smart\smart\screenhandler.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-     1>j:\smart\smart\smart\screenhandler.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-     1>j:\smart\smart\smart\screenhandler.cpp(5): error C2065: 'NULL' : undeclared identifier
-     1>j:\smart\smart\smart\screenhandler.cpp(6): error C2065: 'mMenuScreen' : undeclared identifier
-     1>j:\smart\smart\smart\screenhandler.cpp(6): error C2065: 'NULL' : undeclared identifier
-     1>j:\smart\smart\smart\screenhandler.cpp(12): error C2065: 'mMenuScreen' : undeclared identifier
-     1>j:\smart\smart\smart\screenhandler.cpp(12): error C2541: 'delete' : cannot delete objects that are not pointers
-     1>j:\smart\smart\smart\screenhandler.cpp(20): error C2039: 'SwapState' : is not a member of 'ScreenHandler'
-                 j:\smart\smart\smart\screenhandler.h(9) : see declaration of 'ScreenHandler'
-     1>Done Building Project "J:\SMaRT\SMaRT\SMaRT\SMaRT.vcxproj" (build target(s)) -- FAILED.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\filestorage1.bth.se\profile\rati10\Desktop\SMaRT\Debug\SMaRT.exe" /NOLOGO hge.lib hgehelp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBC.lib /MANIFEST /ManifestFile:"Debug\SMaRT.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\filestorage1.bth.se\profile\rati10\Desktop\SMaRT\Debug\SMaRT.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\filestorage1.bth.se\profile\rati10\Desktop\SMaRT\Debug\SMaRT.lib" /MACHINE:X86 Debug\Armor.obj
+         Debug\BaseScreen.obj
+         Debug\body.obj
+         Debug\GameScreen.obj
+         Debug\Head.obj
+         Debug\legs.obj
+         Debug\Main.obj
+         Debug\MenuScreen.obj
+         Debug\player.obj
+         Debug\Players.obj
+         Debug\ScreenHandler.obj
+         Debug\SMaRTObject.obj
+         Debug\socks.obj
+         Debug\Weapon.obj
+         Debug\Zombie.obj
+         LINK : \\filestorage1.bth.se\profile\rati10\Desktop\SMaRT\Debug\SMaRT.exe not found or not built by the last incremental link; performing full link
+         SMaRT.vcxproj -> \\filestorage1.bth.se\profile\rati10\Desktop\SMaRT\Debug\SMaRT.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"\\filestorage1.bth.se\profile\rati10\Desktop\SMaRT\Debug\SMaRT.exe;#1" /manifest Debug\SMaRT.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\SMaRT.unsuccessfulbuild".
+         Touching "Debug\SMaRT.lastbuildstate".
+     1>Done Building Project "\\filestorage1.bth.se\profile\rati10\Desktop\SMaRT\SMaRT\SMaRT.vcxproj" (build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.71
+Time Elapsed 00:00:01.78
