@@ -1,35 +1,29 @@
-﻿Build started 2012-06-27 15:30:30.
-     1>Project "\\filestorage1.bth.se\profile\rati10\Desktop\SMaRT\SMaRT\SMaRT.vcxproj" on node 2 (build target(s)).
+﻿Build started 2012-06-27 15:53:20.
+     1>Project "C:\SMaRT\SMaRT\SMaRT\SMaRT.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\SMaRT.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ScreenHandler.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Armor.cpp BaseScreen.cpp body.cpp GameScreen.cpp Head.cpp legs.cpp Main.cpp MenuScreen.cpp Player.cpp Entity.cpp ScreenHandler.cpp SMaRTObject.cpp socks.cpp Weapon.cpp Zombie.cpp
+         Zombie.cpp
+     1>c:\smart\smart\smart\zombie.h(4): fatal error C1083: Cannot open include file: 'Players.h': No such file or directory
+         Weapon.cpp
+         socks.cpp
+         SMaRTObject.cpp
          ScreenHandler.cpp
-       Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\filestorage1.bth.se\profile\rati10\Desktop\SMaRT\Debug\SMaRT.exe" /NOLOGO hge.lib hgehelp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBC.lib /MANIFEST /ManifestFile:"Debug\SMaRT.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\filestorage1.bth.se\profile\rati10\Desktop\SMaRT\Debug\SMaRT.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\filestorage1.bth.se\profile\rati10\Desktop\SMaRT\Debug\SMaRT.lib" /MACHINE:X86 Debug\Armor.obj
-         Debug\BaseScreen.obj
-         Debug\body.obj
-         Debug\GameScreen.obj
-         Debug\Head.obj
-         Debug\legs.obj
-         Debug\Main.obj
-         Debug\MenuScreen.obj
-         Debug\player.obj
-         Debug\Players.obj
-         Debug\ScreenHandler.obj
-         Debug\SMaRTObject.obj
-         Debug\socks.obj
-         Debug\Weapon.obj
-         Debug\Zombie.obj
-         LINK : \\filestorage1.bth.se\profile\rati10\Desktop\SMaRT\Debug\SMaRT.exe not found or not built by the last incremental link; performing full link
-         SMaRT.vcxproj -> \\filestorage1.bth.se\profile\rati10\Desktop\SMaRT\Debug\SMaRT.exe
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"\\filestorage1.bth.se\profile\rati10\Desktop\SMaRT\Debug\SMaRT.exe;#1" /manifest Debug\SMaRT.exe.intermediate.manifest
-       FinalizeBuildStatus:
-         Deleting file "Debug\SMaRT.unsuccessfulbuild".
-         Touching "Debug\SMaRT.lastbuildstate".
-     1>Done Building Project "\\filestorage1.bth.se\profile\rati10\Desktop\SMaRT\SMaRT\SMaRT.vcxproj" (build target(s)).
+         Entity.cpp
+         Player.cpp
+     1>c:\smart\smart\smart\player.h(4): fatal error C1083: Cannot open include file: 'Players.h': No such file or directory
+         MenuScreen.cpp
+         Main.cpp
+         legs.cpp
+         Head.cpp
+         GameScreen.cpp
+         body.cpp
+         BaseScreen.cpp
+         Armor.cpp
+         Generating Code...
+     1>Done Building Project "C:\SMaRT\SMaRT\SMaRT\SMaRT.vcxproj" (build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:01.78
+Time Elapsed 00:00:04.05

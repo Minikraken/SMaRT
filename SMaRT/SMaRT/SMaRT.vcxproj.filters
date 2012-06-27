@@ -54,12 +54,6 @@
     <ClCompile Include="BaseScreen.cpp">
       <Filter>Source Files\Screens</Filter>
     </ClCompile>
-    <ClCompile Include="Players.cpp">
-      <Filter>Source Files\Players/Monsters</Filter>
-    </ClCompile>
-    <ClCompile Include="player.cpp">
-      <Filter>Source Files\Players/Monsters</Filter>
-    </ClCompile>
     <ClCompile Include="Zombie.cpp">
       <Filter>Source Files\Players/Monsters</Filter>
     </ClCompile>
@@ -84,6 +78,12 @@
     <ClCompile Include="MenuScreen.cpp">
       <Filter>Source Files\Screens</Filter>
     </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Players/Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Players/Monsters</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ScreenHandler.h">
@@ -100,12 +100,6 @@
     </ClInclude>
     <ClInclude Include="BaseScreen.h">
       <Filter>Header Files\Screens</Filter>
-    </ClInclude>
-    <ClInclude Include="Players.h">
-      <Filter>Header Files\players/monsters</Filter>
-    </ClInclude>
-    <ClInclude Include="player.h">
-      <Filter>Header Files\players/monsters</Filter>
     </ClInclude>
     <ClInclude Include="Zombie.h">
       <Filter>Header Files\players/monsters</Filter>
@@ -127,6 +121,12 @@
     </ClInclude>
     <ClInclude Include="Weapon.h">
       <Filter>Header Files\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\players/monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\players/monsters</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

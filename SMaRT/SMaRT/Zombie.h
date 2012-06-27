@@ -1,13 +1,14 @@
 #ifndef ZOMBIE_H
 #define ZOMBIE_H
 
-#include "Players.h"
+#include "Entity.h"
 
-class Zombie :Players
+class Zombie : public Entity
 {
 public:
 	Zombie();
 	virtual ~Zombie();
+
 private:
 
 private:

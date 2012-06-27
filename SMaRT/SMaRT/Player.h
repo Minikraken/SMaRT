@@ -1,10 +1,10 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
-#include "Players.h"
+#include "Entity.h"
 
 
-class Player :Players
+class Player : public Entity
 {
 public:
 	Player();

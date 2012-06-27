@@ -69,8 +69,8 @@
     <ClCompile Include="legs.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MenuScreen.cpp" />
-    <ClCompile Include="player.cpp" />
-    <ClCompile Include="Players.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Entity.cpp" />
     <ClCompile Include="ScreenHandler.cpp" />
     <ClCompile Include="SMaRTObject.cpp" />
     <ClCompile Include="socks.cpp" />
@@ -85,8 +85,8 @@
     <ClInclude Include="head.h" />
     <ClInclude Include="legs.h" />
     <ClInclude Include="MenuScreen.h" />
-    <ClInclude Include="player.h" />
-    <ClInclude Include="Players.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Entity.h" />
     <ClInclude Include="ScreenHandler.h" />
     <ClInclude Include="SMaRTObject.h" />
     <ClInclude Include="socks.h" />

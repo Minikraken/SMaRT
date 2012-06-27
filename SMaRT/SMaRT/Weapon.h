@@ -1,29 +1,29 @@
 #ifndef WEAPON_H
 #define WEAPON_H
 
-
 class Weapon
 {
 public:
 	Weapon();
 	virtual ~Weapon();
 
-	int getDamage()
+	int GetDamage() const
 	{
 		return mDamage;
 	}
-	int getSpeed()
+
+	int GetSpeed() const
 	{
 		return mSpeed;
 	}
 
-	void setDamage(int Damage)
+	void SetDamage(int lDamage)
 	{
-		mDamage=Damage;
+		mDamage = lDamage;
 	}
-	void setSpeed(int speed)
+	void setSpeed(int lSpeed)
 	{
-		mSpeed=speed;
+		mSpeed = lSpeed;
 	}
 
 private:
