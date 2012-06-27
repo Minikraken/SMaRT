@@ -12,15 +12,17 @@ public:
 	virtual ~ScreenHandler();
 
 	void Update();
-	void SwapScreenState();
+	void SwapScreenState(ScreenState lGameScreenState);
 
 private:
 
 private:
-	BaseScreen* mBaseScreen;
+	BaseScreen* mScreen;
 	GameScreen* mGameScreen;
 	MenuScreen* mMenuScreen;
 
+	ScreenState mGameScreenState;
+	ScreenState mPrevGameScreenState
 };
 
 #endif
